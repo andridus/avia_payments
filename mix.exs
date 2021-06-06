@@ -31,7 +31,7 @@ defmodule SnitchPayments.MixProject do
       {:gringotts, "~> 1.1"},
       {:ex_money, ">= 2.6.0"},
       {:mock, "~> 0.3.0", only: :test},
-      {:httpoison, "~> 0.13"}
+      {:httpoison, "~> 1.5.1", override: true}
     ]
   end
 end
